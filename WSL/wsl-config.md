@@ -308,3 +308,14 @@ These options are available in Insider Build 17713 and later.
 |:----|:----|:----|:----|
 | enabled | boolean | `true` | Setting this key will determine whether WSL will support launching Windows processes. |
 | appendWindowsPath | boolean | `true` | Setting this key will determine whether WSL will add Windows path elements to the $PATH environment variable. | 
+
+#### user
+
+Section label: `[user]`
+
+This option is available in Build 18980 and later.
+| key | value | default | notes|
+|:----|:----|:----|:----|
+| default | String | `root` | Sets the default username for logging in via `wsl.exe` or `bash.exe`. Defaults to `root` when importing a WSL v1 instance to WSL v2. |
+
+
